@@ -1,3 +1,10 @@
+$( document ).ready(function() {
+
+  $( "#start" ).click(function() {
+    BettingGame.start();
+  });
+});
+
 var BettingGame = {
   bankroll: 100,
   number: null,
@@ -46,4 +53,11 @@ var BettingGame = {
   }
 };
 
-BettingGame.start();
+
+
+
+
+
+
+
+

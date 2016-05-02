@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Faster+One);
+
+body {
+  background-color: rgba(0, 127, 255, 0.75);
+  padding-top:100px;
+}
+
+.game-bg {
+  background-color: white;
+  padding:10px;
+  -webkit-box-shadow: 2px 4px 8px 1px rgba(0,0,0,0.35);
+  -moz-box-shadow: 2px 4px 8px 1px rgba(0,0,0,0.35);
+  box-shadow: 2px 4px 8px 1px rgba(0,0,0,0.35);
+}
+
+h1 {
+  font-family: 'Faster One', cursive;
+  color:rgba(0, 127, 255, 1);
+  font-size:50px;
+}
+
+.btn-default {
+  color:white;
+  background-color: rgba(0, 127, 255, 1);
+  border:none;
+  font-weight: 900;
+  border-radius: 0px;
+  transition:background-color .3s;
+}
+.btn-default:hover {
+  color:white;
+  background-color: rgba(0, 127, 255, .7);
+}
