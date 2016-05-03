@@ -1,33 +1,75 @@
 @import url(https://fonts.googleapis.com/css?family=Faster+One);
 
 body {
-  background-color: rgba(0, 127, 255, 0.75);
   padding-top:100px;
+  background-color: rgba(0, 127, 255, 0.3)
+  font-size:18px;
 }
 
 .game-bg {
-  background-color: white;
+  border: 4px solid rgba(0, 127, 255, 0.75);
+  border-bottom:10px solid rgba(0, 127, 255, 0.75);
   padding:10px;
-  -webkit-box-shadow: 2px 4px 8px 1px rgba(0,0,0,0.35);
-  -moz-box-shadow: 2px 4px 8px 1px rgba(0,0,0,0.35);
-  box-shadow: 2px 4px 8px 1px rgba(0,0,0,0.35);
+  background-color: white;
+  height: 400px;
 }
 
 h1 {
   font-family: 'Faster One', cursive;
   color:rgba(0, 127, 255, 1);
-  font-size:50px;
+  font-size:70px;
+}
+
+p {
+  font-weight: 900;
 }
 
 .btn-default {
-  color:white;
-  background-color: rgba(0, 127, 255, 1);
-  border:none;
+  color:rgba(0, 127, 255, 1);
+  border:1px solid #dbdbdb;
+  border-bottom:3px solid #dbdbdb;
+
+  background-color: white;
   font-weight: 900;
   border-radius: 0px;
   transition:background-color .3s;
 }
 .btn-default:hover {
-  color:white;
-  background-color: rgba(0, 127, 255, .7);
+  color:rgba(0, 127, 255, 1);
+  background-color: #dbdbdb;
+  border:1px solid #dbdbdb;
+  border-bottom:3px solid #dbdbdb;
+
+}
+
+.btn-default:focus {
+  color:rgba(0, 127, 255, 1);
+  background-color: #dbdbdb;
+  border:1px solid #dbdbdb;
+  border-bottom:3px solid #dbdbdb;
+
+}
+
+.btn-default:visited {
+  color:rgba(0, 127, 255, 1);
+  background-color: #dbdbdb;
+  border:1px solid #dbdbdb;
+  border-bottom:3px solid #dbdbdb;
+}
+
+.btn-lg {
+  font-size:30px;
+}
+
+.form-control {
+  border-radius: 0px;
+  text-align: center;
+}
+
+.row {
+  padding:10px 0px;
+}
+
+.hidden {
+    z-index: -3;
 }

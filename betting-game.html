@@ -16,10 +16,43 @@
     <div class="col-md-3"></div>
     <div class="col-md-6 game-bg">
        <h1 class="text-center">Make a Bet</h1>
+       <br/>
 
-       <p class="text-center">
-        <button id="start" class="btn btn-default btn-lg">START</button>
+
+       <p id = "bet-message" class="text-center hidden">
+         Please enter a bet between $5 and $10.
        </p>
+       <p id = "guess-message" class="text-center hidden">
+         Please enter a number between 0 and 10.
+       </p>
+       <p id = "result-message" class="text-center hidden">
+       
+       </p>
+       <div class="row">
+         <div class="form-group form-group-lg">
+         <div class="col-sm-5"></div>
+           <div id ="input" class="col-sm-2">
+              <input type='text' id='bet-input' class='form-control hidden'>
+              <input type='text' id='guess-input' class='form-control hidden'>
+
+           </div>
+          <div class="col-sm-5"></div>
+         </div> 
+       </div>
+       <div id ="button" class="text-center">
+        <button class='btn btn-default btn-lg'></button>
+
+<!--         <button id='start' class='btn btn-default btn-lg'>START</button>
+        <button id='submit-bet' class='btn btn-default btn-lg hidden'>SUBMIT</button>
+        <button id='submit-guess' class='btn btn-default btn-lg hidden'>SUBMIT</button>
+        <button id='next' class='btn btn-default btn-lg hidden'>NEXT</button>
+ -->
+       </div>
+       <br/>
+       <div id ="money" class="text-danger text-center hidden">
+     
+       </div>
+
     </div>
     <div class="col-md-3"></div>
 
